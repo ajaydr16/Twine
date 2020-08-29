@@ -832,7 +832,7 @@ c.[Include in her daily routine]&lt;q3|
     &lt;img height=&quot;500&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Emma.png&quot; alt=&quot;Emma&quot;/&gt;
   &lt;/div&gt;
   &lt;p style=&quot;top:2%; padding-right:10%;&quot;&gt;I am visiting my cousin in Delhi.
-(live: 3.5s)[
+(live: 4.5s)[
     (stop:)
 &lt;br&gt;&lt;i&gt;Select the right sentence that shows your future plan&lt;/i&gt;
 {
@@ -846,8 +846,8 @@ c.[Include in her daily routine]&lt;q3|
 (click: ?q4)[(if: $opt1&#39;s length &lt;3)[(set: $opt1 to $opt1+(a: 4))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
 
 (click: ?check)[
-	(if: $opt1 contains 2 and $opt1&#39;s length is 2 and $opt1 contains 6)[(replace:?info)[You are correct.&lt;br&gt;(set: $score to $score+1) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[next|Question 15]]]]
-	(else:)[(replace: ?check)[](replace:?info)[You are wrong.&lt;br&gt;Correct answer is: She plans to go to restaurant in future&lt;br&gt; (set: $score to $score) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[next|Question 15]]]]
+	(if: $opt1 contains 2 and $opt1&#39;s length is 1)[(replace:?info)[You are correct.&lt;br&gt;(set: $score to $score+1) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[next|Question 15]]]]
+	(else:)[(replace: ?check)[](replace:?info)[You are wrong.&lt;br&gt;Correct answer is: I had a basketball match last night&lt;br&gt; (set: $score to $score) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[next|Question 15]]]]
 ]
 }
 a. [I had a basketball match last night]&lt;q1| 
@@ -878,7 +878,7 @@ d. [I am cooking a meal for my family over the weekend]&lt;q4|
 	&lt;div class= &quot;centered2&quot;&gt;
   		&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;
 	&lt;/div&gt;
-(live: 3.5s)[
+(live: 2.5s)[
     (stop:)
 &lt;p style=&quot;top:25%;&quot;&gt;That was really nice Emma!&lt;br&gt;See you Emma&lt;/p&gt;
 &lt;/div&gt;
