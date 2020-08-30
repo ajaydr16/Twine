@@ -21,6 +21,7 @@
   overflow-x: hidden;
   padding-top: 20px;
   color: black;
+  font-family: Arial;
 }
 
 /* Control the left side */
@@ -29,12 +30,16 @@
   border: 1px solid red;
   width: 50%;
   background-color:#feffff ;
+  font-family: Arial;
+
+
  
 }
 .left p{
 top:25%;
 left: 45%;
 width: 55%;
+font-family: Arial;
 /*border: 1px solid blue;*/
 }
 
@@ -46,6 +51,7 @@ width: 55%;
   transform: translate(-50%, -50%);
   /*border: 1px solid pink;*/
   /*text-align: center;*/
+   font-family: Arial;
 }
 
 /* Control the right side */
@@ -54,6 +60,8 @@ width: 55%;
   border: 1px solid green;
   width: 50%;
   background-color: #feffff;
+   font-family: Arial;
+
   
 }
 .right p{
@@ -61,6 +69,7 @@ text-align:left;
 /*top:16%;*/
 left:10%;
 width: 55%;
+   font-family: Arial;
 /*border: 1px solid brown;*/
 }
 
@@ -71,16 +80,26 @@ width: 55%;
   top: 45%;
   right:5%;
   transform: translate(-50%, -50%);
+   font-family: Arial;
   /*border: 1px solid yellow;*/
   /*text-align: center;*/
 }
 
+tw-passage {
+   font-family: Arial;
+  font-size: 3vh;
+  font-size: 3vw;
+  font-size: 3vmin;
+  line-height: normal;
+
+}
 
 /* Style the image inside the centered container, if needed 
 .centered img {
   width: 150px;
   border-radius: 50%;
 }*/
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
 var $jscomp=$jscomp||{};$jscomp.scope={};$jscomp.arrayIteratorImpl=function(g){var k=0;return function(){return k<g.length?{done:!1,value:g[k++]}:{done:!0}}};$jscomp.arrayIterator=function(g){return{next:$jscomp.arrayIteratorImpl(g)}};$jscomp.ASSUME_ES5=!1;$jscomp.ASSUME_NO_NATIVE_MAP=!1;$jscomp.ASSUME_NO_NATIVE_SET=!1;$jscomp.SIMPLE_FROUND_POLYFILL=!1;$jscomp.ISOLATE_POLYFILLS=!1;
 $jscomp.defineProperty=$jscomp.ASSUME_ES5||"function"==typeof Object.defineProperties?Object.defineProperty:function(g,k,l){if(g==Array.prototype||g==Object.prototype)return g;g[k]=l.value;return g};$jscomp.getGlobal=function(g){g=["object"==typeof globalThis&&globalThis,g,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var k=0;k<g.length;++k){var l=g[k];if(l&&l.Math==Math)return l}throw Error("Cannot find global object");};$jscomp.global=$jscomp.getGlobal(this);
@@ -238,69 +257,41 @@ function(b){return a.servicesEnabled[b]||!1};a.setServiceEnabled(a.services.NATI
 typeof e)try{var m=e.match(/^\/(.*?)\/([gimy]*)$/),f=new RegExp(m[1],m[2]);f instanceof RegExp&&(e=f)}catch(h){e=new RegExp(e,"g")}w.push({searchvalue:e,newvalue:d.newvalue,collectionvoices:d.collectionvoices,systemvoices:d.systemvoices})}}};var z=/(code\.responsivevoice\.org|local-lb).*?responsivevoice(\.\w+)?\.js/ig;"interactive"===document.readyState?a.init():document.addEventListener("DOMContentLoaded",function(){a.init()})},responsiveVoice=new ResponsiveVoice;
 
 
-</script><tw-passagedata pid="1" name="Untitled Passage" tags="" position="71,71" size="100,100">&lt;h1 style=&quot;color:white; text-align: center; text-shadow: 2px 2px red;&quot;&gt;Let&#39;s Talk&lt;/h1&gt;
-&lt;h2 style=&quot;color:white; text-align: center;&quot;&gt;Meeting a friend for coffee&lt;/h2&gt;
-&lt;h3 style=&quot;color:white; text-align: center;&quot;&gt;Two friends Emma &amp; Anna meet after long time&lt;/h3&gt;
-&lt;p style=&quot;color:white; text-align: center;&quot;&gt;[[Start the game-&gt;Question 1]]&lt;/p&gt;</tw-passagedata><tw-passagedata pid="2" name="Question 1" tags="" position="122,197" size="100,100">&lt;div class=&quot;split left&quot;&gt;
+</script><tw-passagedata pid="1" name="Untitled Passage" tags="" position="71,71" size="100,100">&lt;h1 style=&quot;color:white; text-align: center; text-shadow: 2px 2px red;&quot;&gt;Let&#39;s Talk&lt;/h1&gt;&lt;h2 style=&quot;color:white; text-align: center;&quot;&gt;Meeting a friend for coffee&lt;/h2&gt;&lt;h3 style=&quot;color:white; text-align: center;&quot;&gt;Two friends Emma &amp; Anna meet after long time&lt;/h3&gt;&lt;p style=&quot;color:white; text-align: center;&quot;&gt;[[Start the game-&gt;Question 1]]&lt;/p&gt;</tw-passagedata><tw-passagedata pid="2" name="Question 1" tags="" position="122,197" size="100,100">&lt;div class=&quot;split left&quot;&gt;
   &lt;div id=&quot;panel&quot; class=&quot;centered1&quot;&gt;
     &lt;img height=&quot;500&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Emma.png&quot; alt=&quot;Emma&quot;/&gt;
   &lt;/div&gt;
-  &lt;p id=&quot;topbar&quot;&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[Hi Ann, So good to meet you]&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;split right&quot;&gt;
-	&lt;div class= &quot;centered2&quot;&gt;
-  		&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;
-	&lt;/div&gt;	(live: 3.5s)[
+  &lt;p&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[Hi Ann, So good to meet you]&lt;/p&gt;
+&lt;/div&gt;&lt;div class=&quot;split right&quot;&gt;	&lt;div class= &quot;centered2&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;&lt;/div&gt;	(live: 3.5s)[
     (stop:)
-(t8n: &quot;dissolve&quot;)[&lt;p&gt;&lt;i&gt;Instruction: Select the correct choice&lt;/i&gt;
-
-
+&lt;p&gt;&lt;i&gt;Instruction: Select the correct choice&lt;/i&gt;
 Hi Emm,
 {
 (set: $score to 0)
 (set: $check to &quot;Check&quot;)
-(set: $q1 to &quot;Me too&quot;)
-(set: $q2 to &quot;you too&quot;)
-(set: $q3 to &quot;Same here&quot;)
-(set: $opt1 to &quot;*&quot;)
-(click: $q1)[ (if: $opt1 is &quot;*&quot;)[(set: $opt1 to &quot;a&quot;)]]
+(set: $msg to &quot;&quot;)
+(set: $opt1 to (a:))
+(click: ?q1)[(set: $opt1 to $opt1+(a: 3))]
 
-(click: $q2)[ (if: $opt1 is &quot;*&quot;)[(set: $opt1 to &quot;b&quot;)]]
+(click: ?q2)[(set: $opt1 to $opt1+(a: 2))]
 
-(click: $q3)[(if: $opt1 is &quot;*&quot;)[(set: $opt1 to &quot;b&quot;)]]
-
+(click: ?q3)[(set: $opt1 to $opt1+(a: 3))]
 (click: ?check)[
-	(if: $opt1 is &quot;b&quot;)[
-	(replace:?check)[]
-	(replace:?info)[You are correct &lt;br&gt; (set: $score to $score+1) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 2]]]]
-	(else:)[(replace:?check)[](replace:?info)[You are Wrong. &lt;br&gt; Correct answer is: you too &lt;br&gt; (set: $score to $score) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 2]]]]
+	(if: $opt1 contains 3)[(set: $score to $score)(replace: ?check)[]
+	(alert:  &quot;Correct answer is: you too\nYour score is &quot;+ (text: $score))
+	(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 2]]]
+	]
+	(if: $opt1 contains 2)[(set: $score to $score+1)(replace: ?check)[](alert: &quot;You are correct.\nYour score is &quot;+ (text: $score))
+		(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 2]]]
+	]
 ]
-
-
-
 }
-a. $q1
-b. $q2
-c. $q3
-
+a. [Me too]&lt;q1|
+b. [you too]&lt;q2|
+c. [Same here]&lt;q3|
 [$check]&lt;check|
-[]&lt;info|
-
-&lt;/p&gt;
-&lt;/div&gt;
-]]</tw-passagedata><tw-passagedata pid="3" name="Question 2" tags="" position="192,319" size="100,100">&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered1&quot;&gt;
-    &lt;img height=&quot;500&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Emma.png&quot; alt=&quot;Emma&quot;/&gt;
-  &lt;/div&gt;
-  &lt;p&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[Hey Ann! We haven’t met in a while]&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;split right&quot;&gt;
-	&lt;div class= &quot;centered2&quot;&gt;
-  		&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;
-	&lt;/div&gt;
+[]&lt;info|&lt;/p&gt;&lt;/div&gt;]</tw-passagedata><tw-passagedata pid="3" name="Question 2" tags="" position="192,319" size="100,100">&lt;div class=&quot;split left&quot;&gt;&lt;div class=&quot;centered1&quot;&gt;&lt;img height=&quot;500&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Emma.png&quot; alt=&quot;Emma&quot;/&gt;&lt;/div&gt;&lt;p&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[Hey Ann! We haven’t met in a while]&lt;/p&gt;&lt;/div&gt;\
+&lt;div class=&quot;split right&quot;&gt;&lt;div class= &quot;centered2&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;&lt;/div&gt;
 (live: 3s)[
     (stop:)
 &lt;p&gt;
@@ -322,22 +313,15 @@ Please note - the sentence has had its capital letters &amp; full stop removed&l
 	(click: ?yeah)[(replace: ?s)[(set: $s to $s+&quot; yeah!&quot;)$s]]
 	(click: ?can)[(replace: ?s)[(set: $s to $s+&quot; can&quot;)$s]]
 	(click: ?check)[
-	(if: $s is &quot; yeah! can we have a coffee and catch up&quot;)[
+	(if: $s is &quot; yeah! can we have a coffee and catch up&quot;)[(set: $score to $score+1)(alert: &quot;You are correct\nYour score is &quot;+ (text: $score))
 		(replace: ?_check)[
-			(set: _check to &quot;You are correct.&quot;)
-			(set: $score to $score+1)
-			_check&lt;br&gt;
-			Your score is $score&lt;br&gt;
-			(confirm: &quot;You are correct&quot;)&lt;br&gt;
 			(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 3]]
 		]
 			]
+		(if: $s is &quot;#&quot;)[]
 		(else:)[
 			(replace: ?_check)[
-				(set: _check to &quot;You are wrong.\n Correct answer is :\nyeah! can we have a coffee and catch up&quot;)
-				_check&lt;br&gt;
-				Your score is $score&lt;br&gt;
-				(alert: &quot;You are wrong.\n Correct answer is :\nyeah! can we have a coffee and catch up&quot;)&lt;br&gt;
+				(alert: &quot;You are wrong.\n Correct answer is :\nyeah! can we have a coffee and catch up\nYour score is &quot;+ (text: $score))&lt;br&gt;
 				(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 3]]
 			]
 		]
@@ -352,23 +336,13 @@ Please note - the sentence has had its capital letters &amp; full stop removed&l
  [a]&lt;a|\
  [yeah]&lt;yeah|\
  [can]&lt;can|
-&lt;u&gt;Your answer:&lt;/u&gt;
-[$s]&lt;s|
-
-[check]&lt;check|  
-_check
-&lt;/p&gt;
-&lt;/div&gt;
-]</tw-passagedata><tw-passagedata pid="4" name="Question 3" tags="" position="287,427" size="100,100">&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered1&quot;&gt;
-    &lt;img height=&quot;500&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Emma.png&quot; alt=&quot;Emma&quot;/&gt;
-  &lt;/div&gt;
-	&lt;p&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[Do you know any good places nearby?]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-	&lt;div class= &quot;centered2&quot;&gt;
-  		&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;
-	&lt;/div&gt;
+ &lt;p align=&quot;cetre&quot;&gt;&lt;u&gt;Your Answer:&lt;/u&gt;
+ 
+ 
+ [$s]&lt;s|
+[check]&lt;check| 
+_check&lt;/p&gt;&lt;/div&gt;]</tw-passagedata><tw-passagedata pid="4" name="Question 3" tags="" position="287,427" size="100,100">&lt;div class=&quot;split left&quot;&gt;&lt;div class=&quot;centered1&quot;&gt;&lt;img height=&quot;500&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Emma.png&quot; alt=&quot;Emma&quot;/&gt;&lt;/div&gt;&lt;p&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[Do you know any good places nearby?]&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;&lt;div class= &quot;centered2&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;&lt;/div&gt;
 (live: 3s)[
     (stop:)
 &lt;p&gt;&lt;i&gt;Instruction: Select the correct choices&lt;/i&gt;
@@ -385,16 +359,17 @@ Yes, my favorite coffee shop is
 (click: ?q3)[(set: $opt1 to $opt1+(a: 3))]
 
 (click: ?check)[
-	(if: $opt1 contains 3)[(replace: ?check)[](replace:?info)[Correct answer is: Just around the corner (or) &quot;Just round the corner&quot; &lt;br&gt; (set: $score to $score-1) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 4]]]]
-	(else-if: $opt1 contains 1 or $opt1 contains 2)[
-		(replace: ?check)[]
-		(replace:?info)[You are correct.&lt;br&gt;(set: $score to $score+1) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 4]]]
+	(if: $opt1 contains 3)[(set: $score to $score)(replace: ?check)[](alert:  &quot;Correct answer is: Just around the corner (or) Just round the corner\nYour score is &quot;+ (text: $score))(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 4]]]]
+	(if: $opt1 contains &quot;#&quot;)[]
+	(else-if: $opt1 contains 1 or $opt1 contains 2)[(replace: ?check)[](set: $score to $score+1)(alert: &quot;You are correct.\nYour score is &quot;+ (text: $score))
+		(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 4]]]
 	]
 ]
 }
 a. [Just around the corner]&lt;q1|
 b. [Just round the corner]&lt;q2|
 c. [Near the corner]&lt;q3|
+
 
 [$check]&lt;check|
 []&lt;info|	
@@ -407,14 +382,10 @@ c. [Near the corner]&lt;q3|
   &lt;/div&gt;
 	&lt;p&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[This place is nice.]&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-	&lt;div class= &quot;centered2&quot;&gt;
-  		&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;
-	&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;&lt;div class= &quot;centered2&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;&lt;/div&gt;
 (live: 3.5s)[
     (stop:)
 &lt;p&gt;It&#39;s one of my favorites
-
 &lt;i&gt;What is her favorite place?&lt;/i&gt;
 {
 (set: $check to &quot;Check&quot;)
@@ -430,15 +401,17 @@ c. [Near the corner]&lt;q3|
 
 (click: ?check)[
 	(if: $opt1 is &quot;a&quot;)[
-	(replace:?check)[]
-	(replace:?info)[You are correct. &lt;br&gt; (set: $score to $score+1) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 5]]]]
-	(else:)[(replace:?check)[](replace:?info)[You are wrong. &lt;br&gt; Correct answer is: Coffee shop &lt;br&gt; (set: $score to $score) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 5]]]]
+	(replace:?check)[](set: $score to $score+1)(alert: &quot;You are correct.\nYour score is &quot;+ (text: $score))
+	(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 5]]]]
+	(if: $opt1 is &quot;#&quot;)[]
+	(else-if: $opt1 is &quot;b&quot;)[(replace:?check)[](alert: &quot;You are wrong.\nCorrect answer is: Coffee shop\nYour score is &quot;+ (text: $score))(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 5]]]]
 ]
 
 }
 a. $q1
 b. $q2
 c. $q3
+
 
 [$check]&lt;check|
 []&lt;info|
@@ -450,10 +423,7 @@ c. $q3
   &lt;/div&gt;
   &lt;p&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[Have you been here before?]&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-	&lt;div class= &quot;centered2&quot;&gt;
-  		&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;
-	&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;&lt;div class= &quot;centered2&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;&lt;/div&gt;
 (live: 3.5s)[
     (stop:)
 		&lt;p&gt;&lt;i&gt;Select the most appropriate answer&lt;/i&gt;
@@ -471,15 +441,17 @@ c. $q3
 
 (click: ?check)[
 	(if: $opt1 is &quot;a&quot;)[
-	(replace:?check)[]
-	(replace:?info)[You are correct &lt;br&gt; (set: $score to $score+1) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 6]]]]
-	(else:)[(replace:?check)[](replace:?info)[You are wrong. &lt;br&gt; Correct answer is: A few times &lt;br&gt; (set: $score to $score) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 6]]]]
+	(replace:?check)[](set: $score to $score+1)(alert: &quot;You are correct.\nYour score is &quot;+ (text: $score))
+	(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 6]]]]
+	(if: $opt1 is &quot;#&quot;)[]
+	(else-if: $opt1 is &quot;b&quot;)[(replace:?check)[](alert: &quot;You are wrong.\nCorrect answer is: A few times\nYour score is &quot;+ (text: $score))(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 6]]]]
 ]
 
 }
 a. $q1
 b. $q2
 c. $q3
+
 
 [$check]&lt;check|
 []&lt;info|
@@ -492,10 +464,7 @@ c. $q3
   &lt;p&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[So what can you recommend?]&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;split right&quot;&gt;
-	&lt;div class= &quot;centered2&quot;&gt;
-  		&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;
-	&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;&lt;div class= &quot;centered2&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;&lt;/div&gt;
 (live: 3.5s)[
     (stop:)
 &lt;p&gt;&lt;i&gt;Listen and fill the missing words&lt;/i&gt;
@@ -520,35 +489,29 @@ c. $q3
 
  Hmm… well usually I like the &lt;audio controls style=&quot;width: 100px;&quot;&gt; &lt;i class=&#39;fa fa-volume-up fa-2x&#39;&gt;&lt;/i&gt; &lt;source src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/3.mpeg&quot; type=&quot;audio/ogg&quot;&gt;&lt;/audio&gt; [$d1]&lt;d1|. It’s &lt;audio controls style=&quot;width: 100px;&quot;&gt;&lt;source src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/1.mpeg&quot; type=&quot;audio/ogg&quot;&gt;&lt;/audio&gt; [$d2]&lt;d2| and they do really good coffees and &lt;audio controls  style=&quot;width: 100px;&quot;&gt;&lt;source src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/2.mpeg&quot; type=&quot;audio/ogg&quot;&gt;&lt;/audio&gt; [$d3]&lt;d3|.
 
+
 [$check]&lt;check|
+[]&lt;info|
 (link-replace: &quot;check&quot;)[
-(if: $cal &gt; 0)[]
-(else:)[
 (if: $value1 is &quot;walnut brownie&quot; or $value1 is &quot;Walnut Brownie&quot; )[(set: $cal to $cal+1)]
 (if: $value2 is &quot;delicious&quot;)[(set: $cal to $cal+1)]
 (if: $value3 is &quot;smoothies&quot;)[(set: $cal to $cal+1)]
 (set: $score to $score+$cal)
-(if: $cal is 3)[(replace: ?check)[You are correct&lt;br&gt;Your score is $score
-(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 7]]
-]]
-(else:)[
-(replace: ?check)[Correct answers are &quot;walnut brownie&quot;, &quot;delicious&quot; and &quot;smoothies&quot;&lt;br&gt; Your score is $score
-(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 7]]
+(if: $cal is 3)[(alert: &quot;You are correct.\nYour score is &quot;+ (text: $score))(replace: ?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 7]]]]
+(if: $cal is -1)[]
+(else:)[(alert: &quot;Correct answers are walnut brownie, delicious and smoothies\nYour score is &quot;+ (text: $score))(replace: ?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 7]]]]]
 ]
-]]]
 &lt;/p&gt;
-&lt;/div&gt;
-]</tw-passagedata><tw-passagedata pid="8" name="Question 7" tags="" position="776,209" size="100,100">&lt;div class=&quot;split left&quot;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="8" name="Question 7" tags="" position="776,209" size="100,100">&lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered1&quot;&gt;
     &lt;img height=&quot;500&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Emma.png&quot; alt=&quot;Emma&quot;/&gt;
   &lt;/div&gt;
   &lt;p&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[Okay, I will have walnut brownie with a coffee.&lt;br&gt;What can you recommend?]&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-	&lt;div class= &quot;centered2&quot;&gt;
-  		&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;
-	&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;&lt;div class= &quot;centered2&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;&lt;/div&gt;
 &lt;p&gt;
+(live: 3.5s)[
+    (stop:)
 &lt;b&gt;&lt;u&gt;Do you mind&lt;/u&gt;&lt;/b&gt; if I share walnut brownie with you?
 &lt;i&gt;What does Ann a mean by saying do you mind?&lt;/i&gt;
 {
@@ -558,11 +521,13 @@ c. $q3
 {
 (click: ?q1)[ (if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 1)) ](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
 (click: ?q2)[ (if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 2))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
-(click: ?q3)[(if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 3))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
+(click: ?q3)[(if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 2))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
 
 (click: ?check)[
-	(if: $opt1 contains 1 and $opt1&#39;s length is 1)[(replace:?info)[You are correct.&lt;br&gt;(set: $score to $score+1) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 8]]]]
-	(else:)[(replace: ?check)[](replace:?info)[You are wrong.&lt;br&gt; Correct answer is: Getting Emm’s permission &lt;br&gt; (set: $score to $score) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 8]]]]
+	(replace: ?check)[]
+	(if: $opt1 contains 1 and $opt1&#39;s length is 1)[(set: $score to $score+1)(alert: &quot;You are correct.\nYour score is &quot;+ (text: $score))(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 8]]]]
+	(if: $opt1 contains &quot;#&quot;)[]
+	(else-if: $opt1 contains 2)[(replace: ?check)[](alert: &quot;You are wrong.\nCorrect answer is: Getting Emm’s permission\nYour score is &quot;+ (text: $score))(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 8]]]]
 ]
 }
 a. [Getting Emm’s permission]&lt;q1|
@@ -573,13 +538,10 @@ c. [Amusing Emm]&lt;q3|
 []&lt;info|
 &lt;/p&gt;
 &lt;/div&gt;
-
-</tw-passagedata><tw-passagedata pid="9" name="Question 8.1" tags="" position="885,270" size="100,100">&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered1&quot;&gt;
-    &lt;img height=&quot;500&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Emma.png&quot; alt=&quot;Emma&quot;/&gt;
-  &lt;/div&gt;
+]
+</tw-passagedata><tw-passagedata pid="9" name="Question 8.1" tags="" position="901,256" size="100,100">&lt;div class=&quot;split left&quot;&gt;&lt;div class=&quot;centered1&quot;&gt;&lt;img height=&quot;500&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Emma.png&quot; alt=&quot;Emma&quot;/&gt;&lt;/div&gt;
   &lt;p style=&quot;top:2%; padding-right:10%&quot;&gt;Let&#39;s order and it&#39;s my shout, i am getting this&lt;br&gt;
-  (live: 2s)[
+  (live: 3.5s)[
     (stop:)
 	&lt;i&gt;What does its my shout mean?&lt;/i&gt;
 {
@@ -591,8 +553,10 @@ c. [Amusing Emm]&lt;q3|
 (click: ?q2)[ (if: $opt1&#39;s length &lt; 3)[(set: $opt1 to $opt1+(a: 2))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
 
 (click: ?check)[
-	(if: $opt1 contains 1 and $opt1&#39;s length is 2 and $opt1 contains 3)[(replace:?info)[You are correct&lt;br&gt;(set: $score to $score+1) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 9]]]]
-	(else:)[(replace: ?check)[](replace:?info)[Correct answer is: I will pay bill for a person and  I am holding this&lt;br&gt; (set: $score to $score) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 9]]]]
+	(replace: ?check)[]
+	(if: $opt1 contains 1 and $opt1&#39;s length is 2 and $opt1 contains 2)[(set: $score to $score+1)(alert: &quot;You are correct.\nYour score is &quot;+ (text: $score))(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 9]]]]
+	(if: $opt1 contains &quot;#&quot;)[]
+	(else-if: $opt1 contains 1 or $opt1 contains 2 and $opt1&#39;s length is 1)[(replace: ?check)[](alert: &quot;Correct answer is: I will pay bill for a person and  I am holding this\nYour score is &quot;+ (text: $score))(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 9]]]]
 ]
 }
 a. [I will pay bill for a person or group]&lt;q1|
@@ -611,10 +575,7 @@ b. [It&#39;s my turn]&lt;q2|
   		&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;
 	&lt;/div&gt;
 	&lt;p style=&quot;top:25%;&quot;&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[Are you sure?]&lt;/p&gt;
-</tw-passagedata><tw-passagedata pid="10" name="Question 9" tags="" position="1005,342" size="100,100">&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered1&quot;&gt;
-    &lt;img height=&quot;500&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Emma.png&quot; alt=&quot;Emma&quot;/&gt;
-  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="10" name="Question 9" tags="" position="1005,342" size="100,100">&lt;div class=&quot;split left&quot;&gt;&lt;div class=&quot;centered1&quot;&gt;&lt;img height=&quot;500&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Emma.png&quot; alt=&quot;Emma&quot;/&gt;&lt;/div&gt;
   &lt;p style=&quot;top:2%; padding-right:10%;&quot;&gt;Yes you got the last one!&lt;br&gt;
 &lt;i&gt;What does Emma means by “you got the last one” ?&lt;/i&gt;
 (live: 3.5s)[
@@ -626,12 +587,14 @@ b. [It&#39;s my turn]&lt;q2|
 {
 (click: ?q1)[ (if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 1)) ](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
 (click: ?q2)[ (if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 2))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
-(click: ?q3)[(if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 3))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
+(click: ?q3)[(if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 2))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
 
 
 (click: ?check)[
-	(if: $opt1 contains 1 and $opt1&#39;s length is 1)[(replace:?info)[You are correct.&lt;br&gt;(set: $score to $score+1) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[next| Question 10]]]]
-	(else:)[(replace: ?check)[](replace:?info)[You are wrong.&lt;br&gt;Correct answer is: Ann paid the bill last time&lt;br&gt; (set: $score to $score) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[next| Question 10]]]]
+	(replace: ?check)[]
+	(if: $opt1 contains 1 and $opt1&#39;s length is 1)[(set: $score to $score+1)(alert: &quot;You are correct.\nYour score is &quot;+ (text: $score))(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[next| Question 10]]]]
+	(if: $opt1 contains &quot;#&quot;)[]
+	(else-if: $opt1 contains 2)[(replace: ?check)[](alert: &quot;You are wrong.\nCorrect answer is: Ann paid the bill last time\nYour score is &quot;+ (text: $score))(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[next| Question 10]]]]
 ]
 }
 a. [Ann paid the bill last time ]&lt;q1|
@@ -657,11 +620,7 @@ c. [Ann win the price last time]&lt;q3|
   &lt;/div&gt;
   &lt;p&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[Here comes my Mocha! Oh I got chocolate sauce because that’s complementary with walnut brownie]&lt;/p&gt;
 &lt;/div&gt;
-
-&lt;div class=&quot;split right&quot;&gt;
-	&lt;div class= &quot;centered2&quot;&gt;
-  		&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;
-	&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;&lt;div class= &quot;centered2&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;&lt;/div&gt;
 (live: 3.5s)[
     (stop:)
 &lt;p&gt;&lt;i&gt;Jumble up the sentence&lt;/i&gt;
@@ -685,8 +644,9 @@ c. [Ann win the price last time]&lt;q3|
 	(click: ?good)[(replace: ?s2)[(set: $s2 to $s2+&quot; good&quot;)$s2]]
 	(click: ?too)[(replace: ?s2)[(set: $s2 to $s2+&quot; too&quot;)$s2]]
 	(click: ?check)[
-		(if: $s1 is &quot; Oh! Here comes, iced latte!&quot; and $s2 is &quot; They look good too&quot;)[(replace: ?_check)[(set: _check to &quot;You are correct.&quot;)(set: $score to $score+1) _check &lt;br&gt;Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next| Question 11]]]]
-		(else:)[(replace: ?_check)[(set: _check to &quot;You are wrong.&quot;)_check&lt;br&gt;Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next| Question 11]]]]
+		(if: $s1 is &quot; Oh! Here comes, iced latte!&quot; and $s2 is &quot; They look good too&quot;)[(replace: ?_check)[(set: $s1 to -1)(set: $score to $score+1)(alert: &quot;You are correct.\nYour score is &quot;+ (text: $score))(set: _check to &quot;&quot;)(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next| Question 11]]]]
+		(if: $s1 is &quot;#&quot;)[]
+		(else-if: $s1 is not -1)[(alert: &quot;You are wrong.\nCorrect answer is:\nOh! Here comes, iced latte \nThey look good too\nYour score is &quot;+ (text: $score))(replace: ?_check)[(set: _check to &quot;&quot;)(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next| Question 11]]]]
 	]
 }
 
@@ -700,8 +660,10 @@ c. [Ann win the price last time]&lt;q3|
  [look]&lt;look|\
  [They]&lt;They|\
  [too]&lt;too|
+
  &lt;u&gt;Your answer 1:&lt;/u&gt;
  [$s1]&lt;s1|
+ 
  &lt;u&gt;Your answer 2:&lt;/u&gt;
  [$s2]&lt;s2|
 
@@ -718,11 +680,8 @@ _check
   &lt;p&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[So Anna, how’s your week been?]&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;split right&quot;&gt;
-	&lt;div class= &quot;centered2&quot;&gt;
-  		&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;
-	&lt;/div&gt;
-(live: 3.5s)[
+&lt;div class=&quot;split right&quot;&gt;&lt;div class= &quot;centered2&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;&lt;/div&gt;
+(live: 2.5s)[
     (stop:)
 &lt;p&gt;
 {
@@ -732,11 +691,13 @@ _check
 {
 (click: ?q1)[ (if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 1)) ](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
 (click: ?q2)[ (if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 2))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
-(click: ?q3)[(if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 3))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
+(click: ?q3)[(if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 2))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
 
 (click: ?check)[
-	(if: $opt1 contains 1 and $opt1&#39;s length is 1)[(replace:?info)[You are correct.&lt;br&gt;(set: $score to $score+1) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 12]]]]
-	(else:)[(replace: ?check)[](replace:?info)[You are worong.&lt;br&gt;Correct answer is: Getting Emm’s permission &lt;br&gt; (set: $score to $score-1) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 12]]]]
+	(replace: ?check)[]
+	(if: $opt1 contains 1 and $opt1&#39;s length is 1)[(set: $score to $score+1)(alert: &quot;You are correct.\nYour score is &quot;+ (text: $score))(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 12]]]]
+	(if: $opt1 contains &quot;#&quot;)[]
+	(else-if: $opt1 contains 2 or $opt1&#39;s length is 0)[(replace: ?check)[](alert: &quot;You are worong.\nCorrect answer is: Getting Emm’s permission \nYour score is &quot;+ (text: $score))(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 12]]]]
 ]
 }
 It’s been pretty _____, pretty busy. Coming up to the end of the year.
@@ -744,6 +705,7 @@ It’s been pretty _____, pretty busy. Coming up to the end of the year.
 a. [Good]&lt;q1|
 b. [Bad]&lt;q2|
 c. [Nice]&lt;q3|
+
 
 [$check]&lt;check|
 []&lt;info|
@@ -756,11 +718,8 @@ c. [Nice]&lt;q3|
   &lt;p&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[Have you tried the new cafe down the street? That&#39;s opened up?]&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;split right&quot;&gt;
-	&lt;div class= &quot;centered2&quot;&gt;
-  		&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;
-	&lt;/div&gt;
-(live: 3.5s)[
+&lt;div class=&quot;split right&quot;&gt;&lt;div class= &quot;centered2&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;&lt;/div&gt;
+(live: 2.5s)[
     (stop:)
 &lt;p&gt;
 {
@@ -774,15 +733,15 @@ c. [Nice]&lt;q3|
 }
 No, [$d1]&lt;d1|, on MG road? What’s it called?
 
+
 [$check]&lt;check|
 {
 (link-replace: &quot;check&quot;)[
 (if: $cal &gt; 0)[]
 (else:)[
 (if: $value1 is &quot;not yet&quot;)[(set: $cal to $cal+1)]
-(set: $score to $score+$cal)
-(replace: ?check)[Your score is $score&lt;br&gt;Correct answer: &quot;not yet&quot;&lt;br&gt;
-(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next| Question 13]]
+(set: $score to $score+$cal)(alert: &quot;Correct answer: not yet\nYour score is &quot;+ (text: $score))
+(replace: ?check)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next| Question 13]]
 ]
 ]]
 }
@@ -796,10 +755,7 @@ No, [$d1]&lt;d1|, on MG road? What’s it called?
   &lt;p&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[It’s called the Bake house.]&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;split right&quot;&gt;
-	&lt;div class= &quot;centered2&quot;&gt;
-  		&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;
-	&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;&lt;div class= &quot;centered2&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;&lt;/div&gt;
 (live: 3.5s)[
     (stop:)
 &lt;p&gt;The Bake house! Hmm, I will have to add it to my list!
@@ -810,10 +766,11 @@ No, [$d1]&lt;d1|, on MG road? What’s it called?
 {
 (click: ?q1)[ (if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 1)) ](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
 (click: ?q2)[ (if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 2))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
-(click: ?q3)[(if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 3))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
+(click: ?q3)[(if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 2))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
 
-(click: ?check)[(if: $opt1 contains 1 and $opt1&#39;s length is 1)[(replace:?info)[You are correct&lt;br&gt;(set: $score to $score+1) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[next|Question 14]]&lt;br&gt;what are you doing this weekend?]]
-	(else:)[(replace: ?check)[](replace:?info)[Correct answer is: She plans to go to restaurant in future&lt;br&gt; (set: $score to $score) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[next|Question 14]]&lt;br&gt;what are you doing this weekend?]]
+(click: ?check)[(replace:?check)[](if: $opt1 contains 1 and $opt1&#39;s length is 1)[(set: $score to $score+1)(alert: &quot;You are correct.\nYour score is &quot;+ (text: $score))(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 14]]&lt;br&gt;what are you doing this weekend?]]
+	(if: $opt1 contains &quot;#&quot;)[]
+	(else-if: $opt1 contains 2 or $opt1&#39;s length&gt;1 or $opt1&#39;s length is 0)[(replace: ?check)[](alert: &quot;Correct answer is: She plans to go to restaurant in future\nYour score is &quot;+ (text: $score))(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[Next|Question 14]]&lt;br&gt;what are you doing this weekend?]]
 ]
 }
 &lt;i&gt;What is the meaning of “Add it to my list”&lt;/i&gt;
@@ -827,11 +784,7 @@ c.[Include in her daily routine]&lt;q3|
 
 &lt;/p&gt;
 &lt;/div&gt;
-]</tw-passagedata><tw-passagedata pid="15" name="Question 14" tags="" position="1384,284" size="100,100">&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered1&quot;&gt;
-    &lt;img height=&quot;500&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Emma.png&quot; alt=&quot;Emma&quot;/&gt;
-  &lt;/div&gt;
-  &lt;p style=&quot;top:2%; padding-right:10%;&quot;&gt;I am visiting my cousin in Delhi.
+]</tw-passagedata><tw-passagedata pid="15" name="Question 14" tags="" position="1384,284" size="100,100">&lt;div class=&quot;split left&quot;&gt;&lt;div class=&quot;centered1&quot;&gt;&lt;img height=&quot;500&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Emma.png&quot; alt=&quot;Emma&quot;/&gt;&lt;/div&gt;&lt;p style=&quot;top:2%; padding-right:10%;&quot;&gt;I am visiting my cousin in Delhi.
 (live: 4.5s)[
     (stop:)
 &lt;br&gt;&lt;i&gt;Select the right sentence that shows your future plan&lt;/i&gt;
@@ -840,14 +793,15 @@ c.[Include in her daily routine]&lt;q3|
 (set: $check to &quot;Check&quot;)
 }
 {
-(click: ?q1)[ (if: $opt1&#39;s length &lt;3)[(set: $opt1 to $opt1+(a: 1)) ](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
-(click: ?q2)[ (if: $opt1&#39;s length &lt;3)[(set: $opt1 to $opt1+(a: 2))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
-(click: ?q3)[(if: $opt1&#39;s length &lt;3)[(set: $opt1 to $opt1+(a: 3))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
-(click: ?q4)[(if: $opt1&#39;s length &lt;3)[(set: $opt1 to $opt1+(a: 4))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
+(click: ?q1)[ (if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 1)) ](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
+(click: ?q2)[ (if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 2))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
+(click: ?q3)[(if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 1))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
+(click: ?q4)[(if: $opt1&#39;s length is 0)[(set: $opt1 to $opt1+(a: 1))](else:)[(replace:?info)[&lt;font color=&quot;red&quot;&gt;You can select only one option&lt;/font&gt;]]]
 
 (click: ?check)[
-	(if: $opt1 contains 2 and $opt1&#39;s length is 1)[(replace:?info)[You are correct.&lt;br&gt;(set: $score to $score+1) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[next|Question 15]]]]
-	(else:)[(replace: ?check)[](replace:?info)[You are wrong.&lt;br&gt;Correct answer is: I had a basketball match last night&lt;br&gt; (set: $score to $score) Your score is $score&lt;br&gt;(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[next|Question 15]]]]
+	(if: $opt1 contains 2 and $opt1&#39;s length is 1)[(set: $score to $score+1)(alert: &quot;You are correct.\nYour score is &quot;+ (text: $score))(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[next|Question 15]]]]
+	(if: $opt1 contains &quot;#&quot;)[]
+	(else-if: $opt1 contains 1)[(replace: ?check)[](alert: &quot;You are wrong.\nCorrect answer is: I will have a basketball match next weekend\nYour score is &quot;+ (text: $score))(replace:?info)[(t8n-depart: &quot;dissolve&quot;)+(t8n-time: 2s)[[next|Question 15]]]]
 ]
 }
 a. [I had a basketball match last night]&lt;q1| 
@@ -867,7 +821,7 @@ d. [I am cooking a meal for my family over the weekend]&lt;q4|
 	&lt;/div&gt;
 	&lt;p style=&quot;top:25%;&quot;&gt;(t8n: &quot;pulse&quot;)+(t8n-time: 0.5s)[Oh great! Let’s plan to visit Bake house next weekend then]&lt;/p&gt;
 &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="16" name="Question 15" tags="" position="1432,420" size="100,100">&lt;div class=&quot;split left&quot;&gt;
+	</tw-passagedata><tw-passagedata pid="16" name="Question 15" tags="" position="1432,420" size="100,100">&lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered1&quot;&gt;
     &lt;img height=&quot;500&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Emma.png&quot; alt=&quot;Emma&quot;/&gt;
   &lt;/div&gt;
@@ -895,7 +849,7 @@ d. [I am cooking a meal for my family over the weekend]&lt;q4|
   		&lt;img height=&quot;500&quot; width=&quot;150&quot; src=&quot;https://s3.ap-south-1.amazonaws.com/letstalk.providentia/Anna.png&quot; alt=&quot;Anna&quot;/&gt;
 	&lt;/div&gt;
 &lt;p&gt;
-(live: 3.5s)[
+(live: 1s)[
     (stop:)
 
 And i will get an iced latte as well
